@@ -125,7 +125,7 @@ There is one point that is somewhat confusing about the connections from Node-RE
 
 ## Logging in to Grafana
 
-* On the login screen, the user name is "`admin`". The initial password is given by the value of the variable `GF_SECURITY_ADMIN_PASSWORD` in `grafana/.env`. Note that if you change the password in `grafana/.env` after the first time you launch the grafana containder, the admin password does not change. If you somehow lose the previous value of the admin password, and you don't have another admin login, it's very hard to recover; easiest is to remove `grafana.db` and start over.
+* On the login screen, the user name is "`admin`". The initial password is given by the value of the variable `GF_SECURITY_ADMIN_PASSWORD` in `grafana/.env`. Note that if you change the password in `grafana/.env` after the first time you launch the grafana container, the admin password does not change. If you somehow lose the previous value of the admin password, and you don't have another admin login, it's very hard to recover; easiest is to remove `grafana.db` and start over.
 
 ### Data source settings in Grafana
 
